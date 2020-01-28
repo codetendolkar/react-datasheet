@@ -16,6 +16,7 @@ export default class Cell extends PureComponent {
       <td
         className={className}
         onMouseDown={onMouseDown}
+        onFocus={onMouseDown}
         onMouseOver={onMouseOver}
         onDoubleClick={onDoubleClick}
         onTouchEnd={onDoubleClick}
